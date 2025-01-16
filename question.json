@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Điền từ ngữ thích hợp vào ô trống \u201c\u2026\u2026.. là hệ thống phức tạp của các mối quan hệ, các điều kiện và hoàn cảnh xung quanh của đứa trẻ.\u201d",
+            "options": [
+                "Nhân cách",
+                "Di truyền",
+                "Môi trường",
+                "Giáo dục"
+            ],
+            "correct_answer": "Môi trường"
+        },
+        {
+            "question": "Yếu tố môi trường nào có vai trò trực tiếp và quan trọng nhất trong sự hình thành và phát triển nhân cách?",
+            "options": [
+                "Tự nhiên",
+                "Xã hội",
+                "Văn hoá",
+                "Cá nhân"
+            ],
+            "correct_answer": "Cá nhân"
+        },
+        {
+            "question": "Yếu tố nào sau đây không phải là một đặc điểm di truyền có thể ảnh hưởng đến tính cách của con người?",
+            "options": [
+                "Khả năng chịu áp lực",
+                "Xu hướng hướng ngoại",
+                "Mức độ thông minh",
+                "Trầm cảm"
+            ],
+            "correct_answer": "Trầm cảm"
+        },
+        {
+            "question": "Trong môi trường xã hội giúp hình thành và phát triển nhân cách cần đến nhiều yếu tố đặc biệt không thể thiếu qua các mối quan hệ xã hội, đó được gọi là yếu tố \u2026\u2026\u2026\u2026\u2026",
+            "options": [
+                "Giao tiếp",
+                "Giao lưu",
+                "Hoạt động cá nhân",
+                "Tính cách cá nhân"
+            ],
+            "correct_answer": "Giao lưu"
+        },
+        {
+            "question": "Sự tái tạo lại hay sự kế thừa những đặc thuộc tính sinh học từ thế hệ trước sang thế hệ sau trong chương trình gen, mang đặc trưng nòi giống, nhằm đảm bảo thích nghi với môi trường và tồn tại được gọi là",
+            "options": [
+                "Di truyền",
+                "Biến dị",
+                "Chọn lọc tự nhiên",
+                "Thụ tinh nhân tạo"
+            ],
+            "correct_answer": "Di truyền"
+        },
+        {
+            "question": "Trong các đáp án dưới đây, từ khóa nào đề cập đến sự độc đáo, riêng biệt của một cá thể hoặc một cá nhân tạo nên dấu ấn đặc biệt của họ?",
+            "options": [
+                "Cá tính",
+                "Cá thể",
+                "Cá nhân",
+                "Cái tôi"
+            ],
+            "correct_answer": "Cá tính"
+        },
+        {
+            "question": "Đâu là một trong 2 thành phần của cấu trúc nhân cách con người?",
+            "options": [
+                "Phẩm chất",
+                "Trình độ",
+                "Khí chất",
+                "Xu hướng"
+            ],
+            "correct_answer": "Phẩm chất"
+        },
+        {
+            "question": "Yếu tố nào sau đây không thuộc nhóm đặc điểm di truyền ảnh hưởng đến nhân cách?",
+            "options": [
+                "Tính khí",
+                "Khuyết tật",
+                "Di truyền về trí thông minh",
+                "Xu hướng hành vi"
+            ],
+            "correct_answer": "Khuyết tật"
+        }
+    ]
+}

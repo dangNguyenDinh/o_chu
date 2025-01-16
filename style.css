@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 40px);
+    grid-template-rows: repeat(8, 40px);
+    gap: 2px;
+    background-color: #000;
+    border: 2px solid black;
+
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#buttons {
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Bóng mờ tối */
+    z-index: -1;  /* Đảm bảo lớp phủ nằm trên toàn bộ nội dung */
+    display: none;
+}
+
+#quiz-container {
+    position: absolute;
+    z-index: 2; /* Nổi trên lớp phủ */
+    background-color: white;
+    border-radius: 10px;
+    width: 60vw;
+    text-align: center;
+    padding: 10vh;
+    left: 15vw;
+    top: 20vh;
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.options {
+   
+    list-style-type: none;
+    padding: 0;
+    display: flex;  /* Sử dụng Flexbox để sắp xếp các phần tử ngang */
+    justify-content: center;  /* Căn giữa các phần tử theo chiều ngang */
+    align-items: center;  /* Căn giữa các phần tử theo chiều dọc */
+}
+
+.options li {
+    margin: 5px 0;
+}
+
+.options button {
+    margin-left: 10px;
+}
