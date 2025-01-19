@@ -11,7 +11,7 @@
             "correct_answer": "Môi trường"
         },
         {
-            "question": "Yếu tố môi trường nào có vai trò trực tiếp và quan trọng nhất trong sự hình thành và phát triển nhân cách?",
+            "question": "Yếu tố nào có vai trò trực tiếp và quan trọng nhất trong sự hình thành và phát triển nhân cách?",
             "options": [
                 "Tự nhiên",
                 "Xã hội",
@@ -71,14 +71,14 @@
             "correct_answer": "Phẩm chất"
         },
         {
-            "question": "Yếu tố nào sau đây không thuộc nhóm đặc điểm di truyền ảnh hưởng đến nhân cách?",
+            "question": "Hội chứng rối loạn khó đọc còn được biết đến với thuật ngữ gì?",
             "options": [
-                "Tính khí",
-                "Khuyết tật",
-                "Di truyền về trí thông minh",
-                "Xu hướng hành vi"
+                "Dyslexia",
+                "ADHD",
+                "OCD",
+                "Down"
             ],
-            "correct_answer": "Khuyết tật"
+            "correct_answer": "Dyslexia"
         }
     ]
 }

@@ -82,16 +82,15 @@ function show_row7() {
 }
 
 function show_row8() {
-    board.children[116].innerHTML = "K";
-    board.children[117].innerHTML = "H";
-    board.children[118].innerHTML = "U";
+    board.children[118].innerHTML = "D";
     board.children[119].innerHTML = "Y";
     board.children[119].style.color = "red";
-    board.children[120].innerHTML = "E";
-    board.children[121].innerHTML = "T";
-    board.children[122].innerHTML = "T";
-    board.children[123].innerHTML = "A";
-    board.children[124].innerHTML = "T";
+    board.children[120].innerHTML = "S";
+    board.children[121].innerHTML = "L";
+    board.children[122].innerHTML = "E";
+    board.children[123].innerHTML = "X";
+    board.children[124].innerHTML = "I";
+    board.children[125].innerHTML = "A";
 }
 
 
@@ -127,7 +126,7 @@ function show_row(index) {
 }
 
 // Load dữ liệu từ file JSON
-fetch('question.json')
+fetch('./question.json')
     .then(response => response.json())
     .then(data => {
         const questions = data.questions;
