@@ -1,6 +1,17 @@
 const board = document.getElementById("grid");
+var c1 = false;
+var c2 = false;
+var c3 = false;
+var c4 = false;
+var c5 = false;
+var c6 = false;
+var c7 = false;
+var c8 = false;
+
+
 
 function show_row1() {
+    c1 = true;
     board.children[7].innerHTML = "M";
     board.children[7].style.color = "red";
     board.children[8].innerHTML = "O";
@@ -14,6 +25,7 @@ function show_row1() {
 }
 
 function show_row2() {
+    c2 = true;
     board.children[22].innerHTML = "C";
     board.children[23].innerHTML = "A";
     board.children[23].style.color = "red";
@@ -25,6 +37,7 @@ function show_row2() {
 
 
 function show_row3() {
+    c3 = true;
     board.children[39].innerHTML = "T";
     board.children[39].style.color = "red";
     board.children[40].innerHTML = "R";
@@ -37,6 +50,7 @@ function show_row3() {
 
 
 function show_row4() {
+    c4 = true;
     board.children[50].innerHTML = "G";
     board.children[51].innerHTML = "I";
     board.children[52].innerHTML = "A";
@@ -48,6 +62,7 @@ function show_row4() {
 }
 
 function show_row5() {
+    c5 = true;
     board.children[68].innerHTML = "D";
     board.children[69].innerHTML = "I";
     board.children[70].innerHTML = "T";
@@ -60,6 +75,7 @@ function show_row5() {
 }
 
 function show_row6() {
+    c6 = true;
     board.children[84].innerHTML = "C";
     board.children[85].innerHTML = "A";
     board.children[86].innerHTML = "T";
@@ -70,6 +86,7 @@ function show_row6() {
 }
 
 function show_row7() {
+    c7 = true;
     board.children[96].innerHTML = "P";
     board.children[97].innerHTML = "H";
     board.children[98].innerHTML = "A";
@@ -82,6 +99,7 @@ function show_row7() {
 }
 
 function show_row8() {
+    c8 = true;
     board.children[118].innerHTML = "D";
     board.children[119].innerHTML = "Y";
     board.children[119].style.color = "red";
@@ -180,6 +198,9 @@ fetch('./question.json')
                 document.getElementById("quiz-container").style.display = "none";
                 document.querySelector(".overlay").style.display = "none";
                 document.querySelector(".overlay").style.zIndex = "-1";
+                if(c1 && c2 && c3 && c4 && c5 && c6 && c7 && c8){
+                    document.getElementById("fire").style.display = "block";
+                }
             } else {
                 alert('Sai rồi!');
                 document.getElementById("quiz-container").style.display = "none";
